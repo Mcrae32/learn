@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
-@import "nullstyle";
+@import "_nullstyle";
 body {
     font-family: Lato, Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-style: 14px;
@@ -27,6 +27,7 @@ body {
 .slider__logo {
     display: flex;
     justify-content: center;
+    margin-bottom: 15px;
 }
 .slider__title {
     font-size: 2em;
@@ -35,12 +36,14 @@ body {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 5px;
+    
 }
 .slider__subtitle {
     font-size: 1em;
     display: block;
     text-transform: none;
     font-weight: normal;
+    margin-bottom: 30px;
 }
 .button {
     display: block;
@@ -67,10 +70,21 @@ body {
     cursor: pointer;
 }
 .nav-wrap {
+    padding: 22px 0 25px 0;
+    border-bottom: 1px solid #eaeaea;
 }
-.top-nav {
+.nav {
+    display: flex;
+    justify-content: center;
 }
-.top-nav__link {
+.nav__link {
+    color: #3c3c3c;
+    margin: 0 20px 0 20px;
 }
-.top-nav__link_active {
+.nav__link_active,
+a.nav__link:hover {
+    color: #ada074;
+}
+.about {
+    padding: 15% 0;
 }
