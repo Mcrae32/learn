@@ -182,7 +182,7 @@ a.nav__link:hover {
 }
 
 .about__title {
-  margin: 60px 0 60px 0;
+  margin: 60px 0 80px 0;
 }
 
 .title {
@@ -201,7 +201,7 @@ a.nav__link:hover {
   width: 80px;
   height: 1px;
   background-color: #3c3c3c;
-  bottom: -34px;
+  bottom: -45px;
   position: absolute;
   left: 50%;
   margin-left: -40px;
@@ -249,4 +249,139 @@ a.nav__link:hover {
 
 .target-block__subtitle {
   margin: 0 0 35px 0;
+}
+
+.portfolio {
+  padding: 60px 0;
+  background-color: #f3f3f3;
+}
+
+.portfolio__title {
+  margin: 40px 0 80px 0;
+}
+
+.gallery {
+  margin: 120px 0 60px 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery__row {
+  margin: 0 -1.3636% 20px -1.3636%;
+}
+
+.gallery__block {
+  background-color: #eaeaea;
+  margin: 0 1.3636%;
+  width: 47%;
+  height: 350px;
+}
+
+.gallery__button {
+  display: flex;
+  justify-content: center;
+}
+.gallery__button.button a {
+  color: #000;
+  border: 1px solid #000;
+}
+
+.partners {
+  background: url(../img/partners-bg.jpg) center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.partners__title {
+  text-transform: none;
+  font-weight: 300;
+  color: #fff;
+  padding: 60px 0 10px 0;
+}
+
+.partners__title::after {
+  display: none;
+}
+
+.partners__wrap {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 60px 0 80px;
+}
+
+.contact__title {
+  margin: 120px 0 150px;
+}
+
+.contact__form {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.feedback-form__input-block {
+  margin: 0 2.5% 75px;
+  width: 45%;
+}
+
+.feedback-form__heading {
+  margin-bottom: 15px;
+}
+
+.feedback-form__input {
+  background-color: #f8f7f7;
+  border-top: 1px solid #000;
+  height: 40px;
+  padding: 15px;
+  font-size: 1.3rem;
+  width: 100%;
+}
+
+textarea.feedback-form__input {
+  height: 130px;
+}
+
+.feedback-form__input-block_one {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.feedback-form__button {
+  background-color: #fff;
+  text-transform: uppercase;
+}
+
+.right {
+  text-align: right;
+}
+
+.contact__review {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.contact__review .text-block {
+  margin-bottom: 30px;
+}
+
+.text-block_left-black {
+  text-align: left;
+  color: #3c3c3c;
+  font-weight: 400;
+}
+
+.icon-wrap {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.icon-wrap__icon {
+  margin-right: 7px;
+}
+
+a.text-block_left-black:hover {
+  text-decoration: underline;
 }
